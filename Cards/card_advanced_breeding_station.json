@@ -1,0 +1,23 @@
+{
+    "$schema": "../schemas/card.schema.json",
+    "id": "card_advanced_breeding_station",
+    "nameTerm": "card_advanced_breeding_station_name",
+    "descriptionTerm": "card_advanced_breeding_station_description",
+    "icon": "icon_advanced_breeding_station.png",
+    "value": 3,
+    "script": "AdvancedBreedingStationModNS.AdvancedBreedingStation",
+    "type": "Structures",
+    "_IsBuilding" : true,
+    "_EnergyConnectors": [
+        {
+          "EnergyConnectionType": "input",
+          "EnergyConnectionStrength": 5,
+          "EnergyConnectionAmount": 3
+        },
+        {
+          "EnergyConnectionType": "output",
+          "EnergyConnectionStrength": 5,
+          "EnergyConnectionAmount": 1
+        }
+    ]
+  }

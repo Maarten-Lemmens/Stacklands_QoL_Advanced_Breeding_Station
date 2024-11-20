@@ -1,0 +1,14 @@
+{
+    "$schema": "../schemas/blueprint.schema.json",
+    "id": "blueprint_advanced_breeding_station",
+    "nameTerm": "blueprint_advanced_breeding_station_name",
+    "group": "Building",
+    "subprints": [
+      {
+        "RequiredCards": "animal_pen, magic_dust, magic_dust, glass, glass, iron_bar, iron_bar",
+        "ResultCard": "card_advanced_breeding_station",
+        "Time": 30,
+        "StatusTerm": "blueprint_advanced_breeding_station_status"
+      }
+    ]
+  }
