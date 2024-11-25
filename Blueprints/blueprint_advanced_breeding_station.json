@@ -3,9 +3,10 @@
     "id": "blueprint_advanced_breeding_station",
     "nameTerm": "blueprint_advanced_breeding_station_name",
     "group": "Building",
+    "needsExactMatch": false,
     "subprints": [
       {
-        "RequiredCards": "animal_pen, magic_dust, magic_dust, glass, glass, iron_bar, iron_bar",
+        "RequiredCards": "animal_pen, magic_dust, magic_dust, magic_dust, plank, plank, plank, plank",
         "ResultCard": "card_advanced_breeding_station",
         "Time": 30,
         "StatusTerm": "blueprint_advanced_breeding_station_status"
